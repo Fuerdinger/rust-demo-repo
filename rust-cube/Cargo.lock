@@ -528,7 +528,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-renderer"
+name = "rust-cube"
 version = "0.1.0"
 dependencies = [
  "image",

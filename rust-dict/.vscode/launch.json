@@ -7,15 +7,15 @@
 		{
 			"type": "lldb",
 			"request": "launch",
-			"name": "Debug executable 'rust-imgui'",
+			"name": "Debug executable 'rust-dict'",
 			"cargo": {
 				"args": [
 					"build",
-					"--bin=rust-imgui",
-					"--package=rust-imgui"
+					"--bin=rust-dict",
+					"--package=rust-dict"
 				],
 				"filter": {
-					"name": "rust-imgui",
+					"name": "rust-dict",
 					"kind": "bin"
 				}
 			},
@@ -25,16 +25,16 @@
 		{
 			"type": "lldb",
 			"request": "launch",
-			"name": "Debug unit tests in executable 'rust-imgui'",
+			"name": "Debug unit tests in executable 'rust-dict'",
 			"cargo": {
 				"args": [
 					"test",
 					"--no-run",
-					"--bin=rust-imgui",
-					"--package=rust-imgui"
+					"--bin=rust-dict",
+					"--package=rust-dict"
 				],
 				"filter": {
-					"name": "rust-imgui",
+					"name": "rust-dict",
 					"kind": "bin"
 				}
 			},
